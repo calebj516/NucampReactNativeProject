@@ -132,9 +132,9 @@ function RenderComments({ comments }) {
           imageSize={10}
           style={{ alignItems: "flex-start", paddingVertical: "5%" }}
         />
-        <Text
-          style={{ fontSize: 12 }}
-        >{`-- ${item.author}, ${item.date}`}</Text>
+        <Text style={{ fontSize: 12 }}>
+          {`-- ${item.author}, ${item.date}`}
+        </Text>
       </View>
     );
   };
